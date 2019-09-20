@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------------------------------Header area-----------------------------*/
+.header_area{
+    position: relative;    
+}
+.hbg_img {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+}
+.hbg_img img{
+     width: 100%;
+    height: 600px;
+ }
+.header_content {
+    padding-top: 40px;
+}
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo span{
+    font-weight: bold;
+}
+.menu{
+    text-align: right;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+}
+.menu li a{
+   color: #FEFAF7;
+   padding: 7px 16px;
+   text-decoration: none;
+}
+li.border_bt {
+    background: transparent;
+    border: 0.5px solid #EA974F;
+    border-radius: 50px;
+    padding:6px 0px;
+    transition: 0.8s ease-in-out;
+}
+.border_bt a:hover{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+    border-radius: 50px;
+    text-decoration: none;
+}
+/*----------------------------------------------nav area close-------------------------------*/
+.writing_mid{
+    margin-top: 15%;
+}
+.writing_mid h1{
+    font-family: cabin;
+    font-weight: 700;
+    color:#ffffff;
+}
+.writing_mid p{
+    color:#E9734F;
+    margin-bottom: 50px;
+}
+.writing_mid .ask_btn{
+    background: #ffffff;
+    color: #D63530;
+    border: 0px solid;
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.writing_mid .watch_btn{
+    background:transparent;
+    color: #ffffff;
+    border: 1px solid #EC9A7C;
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.writing_mid .watch_btn img{
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+.text_aream {
+    color: #DC5C6C;
+    left: 47%;
+    position: absolute;
+    padding-top: 55px;
+}
+.text_aream p{
+    margin-top: 10px;
+}
+/*-------------------------------------close header area---------------------------------------*/
+
+/*---------------------------------------price & service area-----------------------------------*/
+.service_main{
+    margin-top: 245px;
+    margin-bottom: 70px;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    margin-bottom: 15px;
+}
+.img_selection2 {
+    margin-top: -40px;
+}
+.img_selection3 {
+    margin-top: -24px;
+}
+.img_selection4 {
+    margin-top: -33px;
+}
+.item h5{
+    margin-bottom: 15px;
+    font-weight:bold;
+    background: -webkit-linear-gradient(#CB0035, #DF6502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Oswald', sans-serif;
+}
+.item p{
+    margin-bottom: 20px;
+    color: #90939D;
+    font-weight: 400;
+}
+.Ask_for_price{
+    margin-top: 70px;
+    background-image: linear-gradient(to bottom right, #274799, #4662A8);
+    color: #ffffff;
+    border: 0px solid;
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*---------------------------------------close price & service area-----------------------------------*/
+
+/*-------------------------------------------nature frome the aear------------------------------------*/
+.nature{
+    background: #F6F6F6;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+.natarul h1{
+    background: -webkit-linear-gradient(#CB0035, #DF6502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-bottom: 20px;        
+}
+.natarul p{
+    color: rgb(138, 136, 136);
+    padding-bottom: 25px;
+}
+.about_drone{
+    color: #A7ACBC;
+}
+.about_drone .p1{
+    text-align: justify;
+    text-align: justify;
+    padding-left: 67px;
+    /* padding-top: 0px; */
+    margin-top: -59px;
+}
+.con2 {
+    padding-top: 25px;
+}
+.about_drone .p2{
+    text-align: justify;
+    text-align: justify;
+    padding-left: 67px;
+    margin-top: -59px;
+}
+.con3 {
+    padding-top: 25px;
+}
+.about_drone .p3{
+    text-align: justify;
+    text-align: justify;
+    padding-left: 67px;
+    margin-top: -59px;
+}
+.about_drone .p4{
+    text-align: justify;
+    text-align: justify;
+    padding-left: 67px;
+    margin-top: -59px;
+}
+.con5{
+    padding-top: 25px;
+}
+.about_drone .p5{
+    text-align: justify;
+    padding-left: 67px;
+    margin-top: -59px;
+}
+.drone_img{
+    text-align: center
+}
+.drone_img img{
+    width: 134%;
+    margin-top: -146px;
+}
+/*-------------------------------------------close nature frome the aear------------------------------------*/
+
+/*-------------------------------------------nature video aear------------------------------------*/
+.natarul_video{
+    
+}
+.video iframe{
+    height: 316px;
+}
+.h1_detailer{
+    padding-left: 50px;
+    padding-top: 36px;
+}
+.h1_detailer h1{
+    background: -webkit-linear-gradient(#CB0035, #DF6502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.h1_detailer p{
+    color: #848893;
+}
+.natarul_u{
+    margin-top: 25px;
+    background-image: linear-gradient(to bottom right, #274799, #4662A8);
+    color: #ffffff;
+    border: 0px solid;
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*-------------------------------------------close nature video aear------------------------------------*/
+
+/*-------------------------------------------city from the aear------------------------------------*/
+.city_aear{
+    background: #F6F6F6; 
+}
+.video1 iframe{
+    height: 300px;
+}
+.h1_city{
+    padding-left: 50px;
+    padding-top: 28px;
+}
+.h1_city h1{
+    background: -webkit-linear-gradient(#CB0035, #DF6502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.h1_city p{
+    color: #848893;
+}
+/*-------------------------------------------close city from the aear------------------------------------*/
+
+/*-------------------------------------------Sign up for our newsletter------------------------------------*/
+.Sign_up{
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+.news_img{
+    position: absolute;
+    width: 100%;
+}
+.news_img img{
+    width: 100%;
+    height: 350px;
+}
+.h1_signup h1{
+    color: #ffffff;
+    padding-top: 12%;
+}
+.input_content{
+    text-align: center;
+    padding-top: 18px;
+}
+.input_content input{
+    padding: 2px;
+    background: transparent;
+    border: 1px solid #D9624D;
+    width: 30%;
+    height: 49px;
+    border-radius: 22px;
+    margin-right: 77px;
+    position: relative;
+}
+.submit_in {
+    padding-left: 183px;
+    margin-top: -4.5%;
+}
+.submit_in input {
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 106px;
+    cursor: pointer;
+    position: absolute;
+    height: 50px;
+}
+
+/*-------------------------------------------close Sign up for our newsletter------------------------------------*/
+
+/*------------------------------------------Embaded map------------------------------------*/
+
+/*------------------------------------------close Embaded map------------------------------------*/
+
+/*------------------------------------------Footer------------------------------------*/
+.footer_snd{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.footer_lg{
+    margin-top: 20px;
+}
+.footer_lg p{
+    font-size: 12px;
+}
+.footer_lg span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+/*------------------------------------------close Footer------------------------------------*/
